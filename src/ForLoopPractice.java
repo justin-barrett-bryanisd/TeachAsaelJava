@@ -19,12 +19,9 @@ public class ForLoopPractice {
             if(str.substring(i,i+1).equals("l"))
                 lCount++;
         }
-        System.out.println("");
-        System.out.println("L Count: "+lCount);
-        
-        for (int i = str.length()-1; i >=0; i--) {
-            System.out.print(str.substring(i,i+1)+"|");
-            System.out.println(str.substring(i));
+        System.out.println("\nL Count :"+lCount);
+        for(int i = str.length()-1; i>=0; i--){
+            System.out.println(str.substring(i,i+1)+"|"+str.substring(i));
         }
     }
 
