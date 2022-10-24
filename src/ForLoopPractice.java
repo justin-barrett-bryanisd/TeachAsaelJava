@@ -23,6 +23,7 @@ public class ForLoopPractice {
         for(int i = str.length()-1; i>=0; i--){
             System.out.println(str.substring(i,i+1)+"|"+str.substring(i));
         }
+        System.out.println("t");
     }
 
 }
