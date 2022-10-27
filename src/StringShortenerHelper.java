@@ -12,7 +12,8 @@ import javax.swing.*;
 public class StringShortenerHelper {
     public static void main(String[] args) throws Exception {
         System.out.println(removeLetter("cats",1));
-        System.out.println(algor1("cats"));
+        System.out.println(algor1("cats eat mice when there is just a little cat food"));
+        System.out.println(algor2("cats eat mice when there is just a little cat food"));
     }
     /*
     Algorithm 0 (remove a letter):
