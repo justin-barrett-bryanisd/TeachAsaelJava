@@ -20,6 +20,9 @@ public class BabyDay {
         long l=12l;
         short s=3;
         
+        DoubleLessonDay.printRoundedHalf();DoubleLessonDay.printRoundedHalf();DoubleLessonDay.printRoundedHalf();DoubleLessonDay.printRoundedHalf();DoubleLessonDay.printRoundedHalf();
+        
+        
         System.out.println(1+2+5+"a"+1+2.0+3);
         System.out.println(Double.MAX_VALUE);
         System.out.println(Double.MIN_VALUE);
