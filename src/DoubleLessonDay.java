@@ -13,6 +13,7 @@ public class DoubleLessonDay {
     
     private static int num=0;
     public static void main(String[] args) throws Exception {
+        DoubleLessonDay5th.quackMultiple(3);
         printRoundedHalf();
         seeThis();
         printRoundedHalf();
