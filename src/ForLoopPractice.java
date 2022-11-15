@@ -24,6 +24,14 @@ public class ForLoopPractice {
             System.out.println(str.substring(i,i+1)+"|"+str.substring(i));
         }
         System.out.println("t");
+        System.out.println("i\'s \t\tj\'s");
+        for (int i = 0; i < 10; i++) {
+            System.out.print(i+"|");
+            for (int j = 0; j < 10; j+=2) {
+                System.out.print("\t"+j);
+            }
+            System.out.println("");
+        }
     }
 
 }

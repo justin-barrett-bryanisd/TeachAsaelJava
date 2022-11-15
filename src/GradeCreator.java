@@ -13,9 +13,9 @@ import javax.swing.*;
 public class GradeCreator {
 
     public static void main(String[] args) throws Exception {
-        int math = 85, english = 80, sci = 82, soc = 90, pe = 100, art = 95;
-
         Random randy = new Random();
+        int math = randy.nextInt(30)+70, english = randy.nextInt(30)+70, sci = randy.nextInt(30)+70, soc = randy.nextInt(30)+70, pe = randy.nextInt(5)+95, art = randy.nextInt(20)+80;
+
         int id = randy.nextInt(999999);
         DecimalFormat df = new DecimalFormat("000000");
         PrintWriter out = new PrintWriter("stu" + df.format(id) + ".csv");
