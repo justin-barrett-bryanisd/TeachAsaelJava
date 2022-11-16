@@ -32,6 +32,15 @@ public class ForLoopPractice {
             }
             System.out.println("");
         }
+        Math.random();
+        double num=getNum(2,"");
     }
-
+    
+    public static int getNum(int a){
+        return 1;
+    }
+    public static double getNum(double b,String dontUse){
+        return 3;
+    }
+    
 }

@@ -21,7 +21,8 @@ public class GradeCreator {
         DecimalFormat df = new DecimalFormat("000000");
         PrintWriter out = new PrintWriter("stu" + df.format(id) + ".csv");
         out.println(df.format(id));
-        for (int i = 7; i < 13; i++) {
+        int grade=randy.nextInt(4)+9;
+        for (int i = 7; i < grade; i++) {
             out.println("");
             out.println(i + "th");
             printLine("MATH", math, out);
@@ -32,11 +33,11 @@ public class GradeCreator {
             printLine("ART", art, out);
 
             math += randy.nextInt(mathC) - mathC/2;
-            english += randy.nextInt(10) - 5;
-            sci += randy.nextInt(8) - 4;
-            soc += randy.nextInt(6) - 3;
-            pe += randy.nextInt(2) - 1;
-            art += randy.nextInt(3) - 1;
+            english += randy.nextInt(englishC) - englishC/2;
+            sci += randy.nextInt(sciC) - sciC/2;
+            soc += randy.nextInt(socC) - socC/2;
+            pe += randy.nextInt(peC) - peC/2;
+            art += randy.nextInt(artC) - artC/2;
         }
         out.close();
     }
