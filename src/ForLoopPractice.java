@@ -11,7 +11,7 @@ import javax.swing.*;
 
 public class ForLoopPractice {
     public static void main(String[] args) throws Exception {
-        String str="the small cat";
+        String str="Brayden needs help";
         System.out.println(str.length());
         int lCount=0;
         for (int i = 0; i < str.length(); i++) {
@@ -34,6 +34,8 @@ public class ForLoopPractice {
         }
         Math.random();
         double num=getNum(2,"");
+        
+        
     }
     
     public static int getNum(int a){
