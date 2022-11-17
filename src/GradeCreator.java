@@ -20,8 +20,8 @@ public class GradeCreator {
         int id = randy.nextInt(999999);
         DecimalFormat df = new DecimalFormat("000000");
         PrintWriter out = new PrintWriter("stu" + df.format(id) + ".csv");
-        out.println(df.format(id));
         int grade=randy.nextInt(4)+9;
+        out.println(df.format(id)+","+grade);
         for (int i = 7; i < grade; i++) {
             out.println("");
             out.println(i + "th");
